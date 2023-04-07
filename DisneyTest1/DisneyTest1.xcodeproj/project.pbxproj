@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CECCEDC165FE5681348778C /* Pods_DisneyTest1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8468A5EB5427359DCCD04B7 /* Pods_DisneyTest1.framework */; };
+		2EEEFD05399D1657C8FF4900 /* Pods_DisneyTest1_DisneyTest1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E20B5477E38DF0E118DAC57 /* Pods_DisneyTest1_DisneyTest1UITests.framework */; };
+		75D1679629E053D9007775BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D1679529E053D9007775BA /* AppDelegate.swift */; };
+		75D1679829E053D9007775BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D1679729E053D9007775BA /* SceneDelegate.swift */; };
+		75D1679A29E053D9007775BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D1679929E053D9007775BA /* ViewController.swift */; };
+		75D1679D29E053D9007775BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D1679B29E053D9007775BA /* Main.storyboard */; };
+		75D1679F29E053DA007775BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D1679E29E053DA007775BA /* Assets.xcassets */; };
+		75D167A229E053DA007775BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D167A029E053DA007775BA /* LaunchScreen.storyboard */; };
+		75D167AD29E053DA007775BA /* DisneyTest1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D167AC29E053DA007775BA /* DisneyTest1Tests.swift */; };
+		75D167B729E053DA007775BA /* DisneyTest1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D167B629E053DA007775BA /* DisneyTest1UITests.swift */; };
+		75D167B929E053DA007775BA /* DisneyTest1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D167B829E053DA007775BA /* DisneyTest1UITestsLaunchTests.swift */; };
+		75D167C629E054D4007775BA /* Disney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D167C529E054D4007775BA /* Disney.swift */; };
+		827EF0915B0F993DB05419B5 /* Pods_DisneyTest1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7ED5ADDAC9ED5261E7F0DE7 /* Pods_DisneyTest1Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75D167A929E053DA007775BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D1678A29E053D9007775BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75D1679129E053D9007775BA;
+			remoteInfo = DisneyTest1;
+		};
+		75D167B329E053DA007775BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D1678A29E053D9007775BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75D1679129E053D9007775BA;
+			remoteInfo = DisneyTest1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E20B5477E38DF0E118DAC57 /* Pods_DisneyTest1_DisneyTest1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisneyTest1_DisneyTest1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C3395E552E78C53CE29D09 /* Pods-DisneyTest1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisneyTest1Tests.debug.xcconfig"; path = "Target Support Files/Pods-DisneyTest1Tests/Pods-DisneyTest1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		227770B94EC3E665498D5324 /* Pods-DisneyTest1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisneyTest1Tests.release.xcconfig"; path = "Target Support Files/Pods-DisneyTest1Tests/Pods-DisneyTest1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		75D1679229E053D9007775BA /* DisneyTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisneyTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D1679529E053D9007775BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75D1679729E053D9007775BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75D1679929E053D9007775BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75D1679C29E053D9007775BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75D1679E29E053DA007775BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75D167A129E053DA007775BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75D167A329E053DA007775BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D167A829E053DA007775BA /* DisneyTest1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneyTest1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D167AC29E053DA007775BA /* DisneyTest1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyTest1Tests.swift; sourceTree = "<group>"; };
+		75D167B229E053DA007775BA /* DisneyTest1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneyTest1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D167B629E053DA007775BA /* DisneyTest1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyTest1UITests.swift; sourceTree = "<group>"; };
+		75D167B829E053DA007775BA /* DisneyTest1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyTest1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75D167C529E054D4007775BA /* Disney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disney.swift; sourceTree = "<group>"; };
+		82F1B79D82EBBF55F921C33C /* Pods-DisneyTest1-DisneyTest1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisneyTest1-DisneyTest1UITests.debug.xcconfig"; path = "Target Support Files/Pods-DisneyTest1-DisneyTest1UITests/Pods-DisneyTest1-DisneyTest1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6EF018C2B2713EA98571A36 /* Pods-DisneyTest1-DisneyTest1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisneyTest1-DisneyTest1UITests.release.xcconfig"; path = "Target Support Files/Pods-DisneyTest1-DisneyTest1UITests/Pods-DisneyTest1-DisneyTest1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		B8468A5EB5427359DCCD04B7 /* Pods_DisneyTest1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisneyTest1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78D83A2211A1DEF005E19B5 /* Pods-DisneyTest1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisneyTest1.debug.xcconfig"; path = "Target Support Files/Pods-DisneyTest1/Pods-DisneyTest1.debug.xcconfig"; sourceTree = "<group>"; };
+		C8CC864828C08FE1369769FE /* Pods-DisneyTest1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisneyTest1.release.xcconfig"; path = "Target Support Files/Pods-DisneyTest1/Pods-DisneyTest1.release.xcconfig"; sourceTree = "<group>"; };
+		F7ED5ADDAC9ED5261E7F0DE7 /* Pods_DisneyTest1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisneyTest1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75D1678F29E053D9007775BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CECCEDC165FE5681348778C /* Pods_DisneyTest1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D167A529E053DA007775BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827EF0915B0F993DB05419B5 /* Pods_DisneyTest1Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D167AF29E053DA007775BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EEEFD05399D1657C8FF4900 /* Pods_DisneyTest1_DisneyTest1UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52649906A915511B418EF4C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C78D83A2211A1DEF005E19B5 /* Pods-DisneyTest1.debug.xcconfig */,
+				C8CC864828C08FE1369769FE /* Pods-DisneyTest1.release.xcconfig */,
+				82F1B79D82EBBF55F921C33C /* Pods-DisneyTest1-DisneyTest1UITests.debug.xcconfig */,
+				A6EF018C2B2713EA98571A36 /* Pods-DisneyTest1-DisneyTest1UITests.release.xcconfig */,
+				14C3395E552E78C53CE29D09 /* Pods-DisneyTest1Tests.debug.xcconfig */,
+				227770B94EC3E665498D5324 /* Pods-DisneyTest1Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		70B52004DF49E1E34A2477D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8468A5EB5427359DCCD04B7 /* Pods_DisneyTest1.framework */,
+				0E20B5477E38DF0E118DAC57 /* Pods_DisneyTest1_DisneyTest1UITests.framework */,
+				F7ED5ADDAC9ED5261E7F0DE7 /* Pods_DisneyTest1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75D1678929E053D9007775BA = {
+			isa = PBXGroup;
+			children = (
+				75D1679429E053D9007775BA /* DisneyTest1 */,
+				75D167AB29E053DA007775BA /* DisneyTest1Tests */,
+				75D167B529E053DA007775BA /* DisneyTest1UITests */,
+				75D1679329E053D9007775BA /* Products */,
+				52649906A915511B418EF4C2 /* Pods */,
+				70B52004DF49E1E34A2477D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75D1679329E053D9007775BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D1679229E053D9007775BA /* DisneyTest1.app */,
+				75D167A829E053DA007775BA /* DisneyTest1Tests.xctest */,
+				75D167B229E053DA007775BA /* DisneyTest1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D1679429E053D9007775BA /* DisneyTest1 */ = {
+			isa = PBXGroup;
+			children = (
+				75D1679529E053D9007775BA /* AppDelegate.swift */,
+				75D1679729E053D9007775BA /* SceneDelegate.swift */,
+				75D1679929E053D9007775BA /* ViewController.swift */,
+				75D1679B29E053D9007775BA /* Main.storyboard */,
+				75D167C529E054D4007775BA /* Disney.swift */,
+				75D1679E29E053DA007775BA /* Assets.xcassets */,
+				75D167A029E053DA007775BA /* LaunchScreen.storyboard */,
+				75D167A329E053DA007775BA /* Info.plist */,
+			);
+			path = DisneyTest1;
+			sourceTree = "<group>";
+		};
+		75D167AB29E053DA007775BA /* DisneyTest1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				75D167AC29E053DA007775BA /* DisneyTest1Tests.swift */,
+			);
+			path = DisneyTest1Tests;
+			sourceTree = "<group>";
+		};
+		75D167B529E053DA007775BA /* DisneyTest1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				75D167B629E053DA007775BA /* DisneyTest1UITests.swift */,
+				75D167B829E053DA007775BA /* DisneyTest1UITestsLaunchTests.swift */,
+			);
+			path = DisneyTest1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75D1679129E053D9007775BA /* DisneyTest1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D167BC29E053DA007775BA /* Build configuration list for PBXNativeTarget "DisneyTest1" */;
+			buildPhases = (
+				9F75AE7058C2854082C6CC4E /* [CP] Check Pods Manifest.lock */,
+				75D1678E29E053D9007775BA /* Sources */,
+				75D1678F29E053D9007775BA /* Frameworks */,
+				75D1679029E053D9007775BA /* Resources */,
+				9CFE472FFDFBCBD6D0A16707 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisneyTest1;
+			productName = DisneyTest1;
+			productReference = 75D1679229E053D9007775BA /* DisneyTest1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75D167A729E053DA007775BA /* DisneyTest1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D167BF29E053DA007775BA /* Build configuration list for PBXNativeTarget "DisneyTest1Tests" */;
+			buildPhases = (
+				6C9357FC01735CC9E842F8F2 /* [CP] Check Pods Manifest.lock */,
+				75D167A429E053DA007775BA /* Sources */,
+				75D167A529E053DA007775BA /* Frameworks */,
+				75D167A629E053DA007775BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75D167AA29E053DA007775BA /* PBXTargetDependency */,
+			);
+			name = DisneyTest1Tests;
+			productName = DisneyTest1Tests;
+			productReference = 75D167A829E053DA007775BA /* DisneyTest1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75D167B129E053DA007775BA /* DisneyTest1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D167C229E053DA007775BA /* Build configuration list for PBXNativeTarget "DisneyTest1UITests" */;
+			buildPhases = (
+				A45E4C811DA22D569D05DF79 /* [CP] Check Pods Manifest.lock */,
+				75D167AE29E053DA007775BA /* Sources */,
+				75D167AF29E053DA007775BA /* Frameworks */,
+				75D167B029E053DA007775BA /* Resources */,
+				A42F8661420EC0FC4AC5D97A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75D167B429E053DA007775BA /* PBXTargetDependency */,
+			);
+			name = DisneyTest1UITests;
+			productName = DisneyTest1UITests;
+			productReference = 75D167B229E053DA007775BA /* DisneyTest1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75D1678A29E053D9007775BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					75D1679129E053D9007775BA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					75D167A729E053DA007775BA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 75D1679129E053D9007775BA;
+					};
+					75D167B129E053DA007775BA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 75D1679129E053D9007775BA;
+					};
+				};
+			};
+			buildConfigurationList = 75D1678D29E053D9007775BA /* Build configuration list for PBXProject "DisneyTest1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75D1678929E053D9007775BA;
+			productRefGroup = 75D1679329E053D9007775BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75D1679129E053D9007775BA /* DisneyTest1 */,
+				75D167A729E053DA007775BA /* DisneyTest1Tests */,
+				75D167B129E053DA007775BA /* DisneyTest1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75D1679029E053D9007775BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D167A229E053DA007775BA /* LaunchScreen.storyboard in Resources */,
+				75D1679F29E053DA007775BA /* Assets.xcassets in Resources */,
+				75D1679D29E053D9007775BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D167A629E053DA007775BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D167B029E053DA007775BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C9357FC01735CC9E842F8F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisneyTest1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CFE472FFDFBCBD6D0A16707 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisneyTest1/Pods-DisneyTest1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisneyTest1/Pods-DisneyTest1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DisneyTest1/Pods-DisneyTest1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F75AE7058C2854082C6CC4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisneyTest1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A42F8661420EC0FC4AC5D97A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisneyTest1-DisneyTest1UITests/Pods-DisneyTest1-DisneyTest1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisneyTest1-DisneyTest1UITests/Pods-DisneyTest1-DisneyTest1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DisneyTest1-DisneyTest1UITests/Pods-DisneyTest1-DisneyTest1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A45E4C811DA22D569D05DF79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisneyTest1-DisneyTest1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75D1678E29E053D9007775BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D1679A29E053D9007775BA /* ViewController.swift in Sources */,
+				75D1679629E053D9007775BA /* AppDelegate.swift in Sources */,
+				75D1679829E053D9007775BA /* SceneDelegate.swift in Sources */,
+				75D167C629E054D4007775BA /* Disney.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D167A429E053DA007775BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D167AD29E053DA007775BA /* DisneyTest1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D167AE29E053DA007775BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D167B929E053DA007775BA /* DisneyTest1UITestsLaunchTests.swift in Sources */,
+				75D167B729E053DA007775BA /* DisneyTest1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75D167AA29E053DA007775BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75D1679129E053D9007775BA /* DisneyTest1 */;
+			targetProxy = 75D167A929E053DA007775BA /* PBXContainerItemProxy */;
+		};
+		75D167B429E053DA007775BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75D1679129E053D9007775BA /* DisneyTest1 */;
+			targetProxy = 75D167B329E053DA007775BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75D1679B29E053D9007775BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D1679C29E053D9007775BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75D167A029E053DA007775BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D167A129E053DA007775BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75D167BA29E053DA007775BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75D167BB29E053DA007775BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75D167BD29E053DA007775BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C78D83A2211A1DEF005E19B5 /* Pods-DisneyTest1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DisneyTest1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GilmarAmaro.DisneyTest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75D167BE29E053DA007775BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8CC864828C08FE1369769FE /* Pods-DisneyTest1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DisneyTest1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GilmarAmaro.DisneyTest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75D167C029E053DA007775BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14C3395E552E78C53CE29D09 /* Pods-DisneyTest1Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GilmarAmaro.DisneyTest1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisneyTest1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DisneyTest1";
+			};
+			name = Debug;
+		};
+		75D167C129E053DA007775BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227770B94EC3E665498D5324 /* Pods-DisneyTest1Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GilmarAmaro.DisneyTest1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisneyTest1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DisneyTest1";
+			};
+			name = Release;
+		};
+		75D167C329E053DA007775BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F1B79D82EBBF55F921C33C /* Pods-DisneyTest1-DisneyTest1UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GilmarAmaro.DisneyTest1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DisneyTest1;
+			};
+			name = Debug;
+		};
+		75D167C429E053DA007775BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6EF018C2B2713EA98571A36 /* Pods-DisneyTest1-DisneyTest1UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GilmarAmaro.DisneyTest1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DisneyTest1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75D1678D29E053D9007775BA /* Build configuration list for PBXProject "DisneyTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D167BA29E053DA007775BA /* Debug */,
+				75D167BB29E053DA007775BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D167BC29E053DA007775BA /* Build configuration list for PBXNativeTarget "DisneyTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D167BD29E053DA007775BA /* Debug */,
+				75D167BE29E053DA007775BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D167BF29E053DA007775BA /* Build configuration list for PBXNativeTarget "DisneyTest1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D167C029E053DA007775BA /* Debug */,
+				75D167C129E053DA007775BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D167C229E053DA007775BA /* Build configuration list for PBXNativeTarget "DisneyTest1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D167C329E053DA007775BA /* Debug */,
+				75D167C429E053DA007775BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75D1678A29E053D9007775BA /* Project object */;
+}
