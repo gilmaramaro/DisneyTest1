@@ -22,6 +22,7 @@ class SecondViewController: UIViewController {
     
     func setupTableView() {
         self.myTableView.dataSource = self
+        self.myTableView.delegate = self
         let UINIB = UINib(nibName: "MyTableViewCell", bundle: nil)
         myTableView.register(UINIB, forCellReuseIdentifier: "Cell")
     }
@@ -45,5 +46,13 @@ extension SecondViewController: UITableViewDataSource {
             return cell
         }
         return UITableViewCell()
+    }
+}
+
+extension SecondViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let myScreenThree = self.storyboard?.instantiateViewController(withIdentifier: "screenThree") as? ThirdViewController {
+            self.present(myScreenThree, animated: true)
+        }
     }
 }
