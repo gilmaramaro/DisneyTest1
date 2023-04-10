@@ -20,4 +20,11 @@ class Request: NSObject {
             }
         }
     }
+    
+    func requestDisney(completion: @escaping (Disney?) ->Void) {
+        AF.request("https://api.disneyapi.dev/characters",method: .get).response { response in
+            let disney = try? JSONDecoder().decode(Disney.self, from: response.data ?? Data())
+            completion(disney)
+        }
+    }
 }

@@ -9,21 +9,41 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var myTableView: UITableView!
+    
+    var disneyChar: Disney?
+    let request = Request()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupTableView()
+        setupRequestDisney()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setupTableView() {
+        self.myTableView.dataSource = self
+        let UINIB = UINib(nibName: "MyTableViewCell", bundle: nil)
+        myTableView.register(UINIB, forCellReuseIdentifier: "Cell")
     }
-    */
+    
+    func setupRequestDisney() {
+        request.requestDisney { disney in
+            self.disneyChar = disney
+            self.myTableView.reloadData()
+        }
+    }
+}
 
+extension SecondViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return disneyChar?.data?.count ?? 0
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? MyTableViewCell {
+            cell.setupDisneyCell(disneyCell: disneyChar?.data?[indexPath.row])
+            return cell
+        }
+        return UITableViewCell()
+    }
 }
