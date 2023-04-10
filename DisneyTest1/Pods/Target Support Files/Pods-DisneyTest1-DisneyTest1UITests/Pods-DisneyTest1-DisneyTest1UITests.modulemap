@@ -1,0 +1,6 @@
+framework module Pods_DisneyTest1_DisneyTest1UITests {
+  umbrella header "Pods-DisneyTest1-DisneyTest1UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
